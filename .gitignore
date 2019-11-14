@@ -1,0 +1,11 @@
+# common file patterns
+.idea
+.iml
+.pyc
+__pycache__
+.jar
+.class
+target
+out
+# excluded paths
+
