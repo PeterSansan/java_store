@@ -28,7 +28,7 @@ public class HiGrpcClient {
             }
             client.greet(user);
         } finally {
-//            client.shutdown();
+            client.shutdown();      // close client grpc channel
         }
     }
     /** Construct client for accessing HelloWorld server using the existing channel. */

@@ -3,7 +3,6 @@
  */
 package com.webank.grpc.hello;
 
-import java.io.InterruptedIOException;
 import java.util.logging.Logger;
 
 import com.webank.grpc.GreeterGrpc;
@@ -12,7 +11,7 @@ import com.webank.grpc.HelloRequest;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import io.grpc.stub.StreamObserver;
-import java.util.List;
+
 import java.io.IOException;
 
 
